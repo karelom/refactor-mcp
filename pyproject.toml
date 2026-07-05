@@ -1,0 +1,10 @@
+[project]
+name = "refactor-mcp"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "mcp[cli]>=1.28.1",
+    "openai>=2.44.0",
+]
