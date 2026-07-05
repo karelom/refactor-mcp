@@ -102,5 +102,5 @@ def delegate_refactor(file_path: str, instruction: str) -> str:
     )
 
 if __name__ == "__main__":
-    # mcp.run()
-    print(delegate_refactor('./test.ts', '把這個 function 改成箭頭函式'))
+    mcp.run()
+    # print(delegate_refactor('./test.ts', '把這個 function 改成箭頭函式'))
